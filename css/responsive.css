@@ -1,0 +1,349 @@
+@media (max-width: 1699px) {
+    :root {
+        --container-max-width: 1440px;
+    }
+}
+
+@media (max-width: 1499px) {
+    :root {
+        --container-max-width: 1320px;
+    }
+
+    .about-hero .hero-social {
+        width: calc(100vw - 93vw);
+    }
+}
+
+@media (max-width: 1399px) {
+    :root {
+        --heading-3xl: 60px;
+        --heading-2xl: 44px;
+        --heading-xl: 38px;
+        --container-max-width: 90%;
+        --heading-lg: 34px;
+    }
+
+    .hero-social,
+    .hero-thumbs {
+        width: 80px;
+    }
+}
+
+@media (max-width: 1299px) {}
+
+@media (max-width: 1199px) {
+    :root {
+        --heading-3xl: 52px;
+        --heading-2xl: 38px;
+        --heading-xl: 34px;
+        --heading-lg: 30px;
+        --heading-md: 28px;
+        --footer-md: 28px;
+        --heading-sm: 26px;
+    }
+
+    .main-header .navbar-nav,
+    .nav-right {
+        gap: 30px;
+    }
+
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .video-showreel iframe {
+        height: 700px;
+    }
+
+    .service-text {
+        padding: 20px 40px;
+    }
+
+    .service-text a.btn-primary {
+        margin-top: auto;
+        max-width: auto;
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-header .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .main-header .navbar-nav .dropdown:hover .dropdown-toggle::after {
+        transform: rotate(180deg);
+        transition: 0.3s;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    :root {
+        --heading-3xl: 46px;
+        --heading-2xl: 34px;
+        --heading-xl: 30px;
+        --heading-lg: 26px;
+    }
+
+    .py-100 {
+        padding: 80px 0;
+    }
+
+    .main-header .navbar-nav {
+        gap: 10px;
+        text-align: start;
+        padding: 10px 20px;
+    }
+
+    .main-header .navbar-collapse {
+        position: absolute;
+        top: 86px;
+        background-color: var(--color-black);
+        /* Semi-transparent var(--color-dark) */
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        width: 100%;
+        left: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .main-header .navbar-nav .nav-link {
+        color: var(--color-light-gray) !important;
+
+    }
+
+    .header-logo {
+        height: 76px;
+    }
+
+    .main-header .dropdown-toggle::after {
+        position: absolute;
+        right: 0;
+        top: 6px;
+    }
+
+    .nav-link:focus-visible {
+        box-shadow: none;
+    }
+
+    a.btn-primary {
+        min-width: 300px;
+        height: 55px;
+    }
+
+    .how-different-grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .header-action .btn-heart img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .main-header li:not(:last-of-type) {
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+    }
+
+    .main-header .dropdown-menu li {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .bts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-text {
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .service-text p {
+        font-size: var(--text-xm);
+    }
+
+    .sid-grid {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+
+    .sid-gallery {
+        margin-top: 40px;
+        position: static;
+        width: 100%;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --heading-3xl: 40px;
+        --heading-2xl: 30px;
+        --heading-xl: 26px;
+        --heading-lg: 24px;
+        --heading-md: 24px;
+        --footer-md: 24px;
+        --heading-sm: 22px;
+        --text-xl: 24px;
+        --text-lg: 20px;
+        --text-md: 18px;
+        --text-sm: 16px;
+    }
+
+    .py-100 {
+        padding: 60px 0;
+    }
+
+    .brand-content p:first-of-type {
+        margin-top: 30px;
+    }
+
+    .footer-copyright .bm-container {
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 10px 0;
+    }
+
+    .nav-right {
+        gap: 20px;
+    }
+
+    .why-us-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .client-feedback-slider {
+        padding-right: 0;
+    }
+
+    .feedback-navigation {
+        top: 100%;
+        transform: translateY(-100%);
+    }
+
+    .hero-social {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .hero-section.about-hero {
+        height: auto;
+    }
+
+    .hero-thumbs {
+        width: 100%;
+    }
+
+    .hero-thumbs .swiper-vertical>.swiper-wrapper {
+        flex-direction: row;
+    }
+
+    .video-showreel iframe {
+        height: 500px;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-text {
+        width: 100%;
+    }
+
+    .sid-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .si-desc {
+        padding: 20px;
+    }
+
+    .service-inner-hero {
+        max-height: 400px;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    :root {
+        --heading-3xl: 34px;
+        --heading-xl: 24px;
+        --heading-lg: 22px;
+        --footer-md: 20px;
+        --heading-md: 20px;
+        --heading-sm: 18px;
+        --text-xl: 20px;
+        --text-lg: 16px;
+        --text-md: 16px;
+        --text-xs: 14px;
+    }
+
+    .py-100 {
+        padding: 50px 0;
+    }
+
+    a.btn-primary {
+        min-width: 100%;
+        height: 48px;
+    }
+
+    .testimonial-img {
+        height: 100%;
+        max-width: 204px;
+        margin: 0 auto;
+    }
+
+    .testimonial-slide {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .testimonial-content .quote {
+        text-align: center;
+    }
+
+    .testimonial-content .author {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .custom-offcanvas .offcanvas-body {
+        padding: 20px;
+    }
+
+    .custom-offcanvas .offcanvas-header {
+        padding: 30px 20px 0px 20px;
+    }
+
+    .bts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sid-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .sid-features {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
