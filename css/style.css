@@ -972,6 +972,8 @@ section:has(.dark-bg) h2 {
     display: flex;
     flex-direction: column;
     align-items: start;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+
 }
 
 .service-text {
