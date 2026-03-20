@@ -1437,7 +1437,6 @@ section:has(.dark-bg) h2 {
     font-size: var(--heading-3xl);
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 0;
 }
 
 .experiences-header h2::after {
